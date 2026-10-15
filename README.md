@@ -1,4 +1,4 @@
-# ☕ Campus Café — Open Source Cohort Selection Test
+# Campus Café
 
 A small static website made with **HTML and CSS only**. Every page has a few bugs. Your job is to fix **the one issue assigned to you**.
 
