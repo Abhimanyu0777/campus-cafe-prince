@@ -1,0 +1,32 @@
+:root {
+  --accent: #be123c;
+}
+
+.p18-tag-badge {
+  color: #ffffff
+  background: #be123c;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+#p18-price {
+  color: #6b7280;
+  font-size: 1.6rem;
+}
+.p18-price.sale {
+  color: #15803d;
+  font-weight: 700;
+}
+
+.p18-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px 1fr));
+  gap: 12px;
+}
+.p18-cards div {
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}

@@ -1,0 +1,45 @@
+:root {
+  --accent: #4338ca;
+}
+
+.p17-note {
+  background: #1f2937;
+  padding: 16px;
+  border-radius: 8px;
+  colour: #ffffff;
+}
+
+.p17-btn {
+  display: inline-block;
+  background: #4338ca;
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.p17-promo-box {
+  padding: 28px;
+  background: #fff7ed;
+  border: 2px dashed #4338ca;
+}
+.p17-ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #4338ca;
+  color: #ffffff;
+  padding: 4px 12px;
+  font-weight: 700;
+}
+
+.p17-links a:hover {
+  color: #4338ca;
+  text-decoration: underline;
+}
+.p17-links a:link {
+  color: #374151;
+  text-decoration: none;
+  margin-right: 16px;
+}

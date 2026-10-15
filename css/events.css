@@ -1,0 +1,48 @@
+:root {
+  --accent: #7e22ce;
+}
+
+.p12-tag-badge {
+  color: #ffffff
+  background: #7e22ce;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.p12-btn {
+  display: inline-block;
+  background: #7e22ce;
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.p12-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.p12-tiles div {
+  background: #f3f4f6;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+@media (max-width: 600) {
+  .p12-tiles {
+    grid-template-columns: 1fr;
+  }
+}
+
+.p12-links a:hover {
+  color: #7e22ce;
+  text-decoration: underline;
+}
+.p12-links a:link {
+  color: #374151;
+  text-decoration: none;
+  margin-right: 16px;
+}

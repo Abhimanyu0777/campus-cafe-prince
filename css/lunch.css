@@ -1,0 +1,36 @@
+:root {
+  --accent: #15803d;
+}
+
+#p02-price {
+  color: #6b7280;
+  font-size: 1.6rem;
+}
+.p02-price.sale {
+  color: #15803d;
+  font-weight: 700;
+}
+
+.p02-tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+.p02-tiles div {
+  background: #f3f4f6;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+@media (max-width: 600) {
+  .p02-tiles {
+    grid-template-columns: 1fr;
+  }
+}
+
+.p02-note {
+  background: #1f2937;
+  padding: 16px;
+  border-radius: 8px;
+  colour: #ffffff;
+}

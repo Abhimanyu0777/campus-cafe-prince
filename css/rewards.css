@@ -1,0 +1,40 @@
+:root {
+  --accent: #a16207;
+}
+
+.p14-links a:hover {
+  color: #a16207;
+  text-decoration: underline;
+}
+.p14-links a:link {
+  color: #374151;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.p14-banner-box {
+  display: flex;
+  min-height: 200px;
+  justify-content: center;
+  align-content: center;
+  background: #a16207;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.p14-note {
+  background: #1f2937;
+  padding: 16px;
+  border-radius: 8px;
+  colour: #ffffff;
+}
+
+.p14-btn {
+  display: inline-block;
+  background: #a16207;
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+}

@@ -1,0 +1,38 @@
+:root {
+  --accent: #b45309;
+}
+
+.p01-btn {
+  display: inline-block;
+  background: #b45309;
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.p01-chips {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+.p01-chips li {
+  min-width: 110px;
+  padding: 8px 12px;
+  background: #b45309;
+  color: #ffffff;
+  border-radius: 999px;
+  text-align: center;
+}
+
+.p01-links a:hover {
+  color: #b45309;
+  text-decoration: underline;
+}
+.p01-links a:link {
+  color: #374151;
+  text-decoration: none;
+  margin-right: 16px;
+}

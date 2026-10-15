@@ -1,0 +1,35 @@
+:root {
+  --accent: #be185d;
+}
+
+.p04-links a:hover {
+  color: #be185d;
+  text-decoration: underline;
+}
+.p04-links a:link {
+  color: #374151;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.p04-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px 1fr));
+  gap: 12px;
+}
+.p04-cards div {
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.p04-btn {
+  display: inline-block;
+  background: #be185d;
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+}

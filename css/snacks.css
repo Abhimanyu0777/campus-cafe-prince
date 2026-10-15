@@ -1,0 +1,43 @@
+:root {
+  --accent: #c2410c;
+}
+
+.p05-note {
+  background: #1f2937;
+  padding: 16px;
+  border-radius: 8px;
+  colour: #ffffff;
+}
+
+.p05-dropwrap {
+  position: relative;
+  display: inline-block;
+}
+.p05-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 8px 16px;
+  min-width: 200px;
+  background: #ffffff;
+  border: 1px solid #9ca3af;
+}
+.p05-after {
+  position: relative;
+  z-index: 1;
+  margin-top: 8px;
+  padding: 28px 20px;
+  background: #c2410c;
+  color: #ffffff;
+}
+
+#p05-price {
+  color: #6b7280;
+  font-size: 1.6rem;
+}
+.p05-price.sale {
+  color: #15803d;
+  font-weight: 700;
+}

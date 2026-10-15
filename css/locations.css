@@ -1,0 +1,35 @@
+:root {
+  --accent: #0f766e;
+}
+
+.p15-chips {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+.p15-chips li {
+  min-width: 110px;
+  padding: 8px 12px;
+  background: #0f766e;
+  color: #ffffff;
+  border-radius: 999px;
+  text-align: center;
+}
+
+.p15-tag-badge {
+  color: #ffffff
+  background: #0f766e;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+#p15-price {
+  color: #6b7280;
+  font-size: 1.6rem;
+}
+.p15-price.sale {
+  color: #15803d;
+  font-weight: 700;
+}

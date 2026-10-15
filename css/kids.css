@@ -1,0 +1,22 @@
+:root {
+  --accent: #be185d;
+}
+
+.p10-banner-box {
+  display: flex;
+  min-height: 200px;
+  justify-content: center;
+  align-content: center;
+  background: #be185d;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+#p10-price {
+  color: #6b7280;
+  font-size: 1.6rem;
+}
+.p10-price.sale {
+  color: #15803d;
+  font-weight: 700;
+}

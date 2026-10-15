@@ -1,0 +1,27 @@
+:root {
+  --accent: #92400e;
+}
+
+#p07-price {
+  color: #6b7280;
+  font-size: 1.6rem;
+}
+.p07-price.sale {
+  color: #15803d;
+  font-weight: 700;
+}
+
+.p07-promo-box {
+  padding: 28px;
+  background: #fff7ed;
+  border: 2px dashed #92400e;
+}
+.p07-ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #92400e;
+  color: #ffffff;
+  padding: 4px 12px;
+  font-weight: 700;
+}
