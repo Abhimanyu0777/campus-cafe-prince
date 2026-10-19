@@ -26,7 +26,7 @@
   background: #1f2937;
   padding: 16px;
   border-radius: 8px;
-  colour: #ffffff;
+  color: #ffffff;   /* ✅ */
 }
 
 .p14-btn {
